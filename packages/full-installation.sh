@@ -1,4 +1,5 @@
 # Installation Package on FandyOS
+# Version 4/28/2024
 
 # Nameserver
 # Google / Google International Resolver
@@ -64,6 +65,12 @@ clear
 sleep 1
 rkhunter --update
 rkhunter --propupd
+
+# Settings UFW
+# Tergantung User jadinya harus berhati -hati
+# ufw add bind9
+# ufw add nginx
+
 
 # UI Interface
 # Coming Soon
